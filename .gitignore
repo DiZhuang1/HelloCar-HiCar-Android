@@ -1,0 +1,34 @@
+# ---------- Android / Gradle ----------
+*.apk
+!apk/*.apk
+*.aab
+*.jks
+*.keystore
+.gradle/
+build/
+local.properties
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---------- Rust ----------
+target/
+**/target/
+
+# ---------- 本项目构建中间产物 ----------
+obj/
+lib/
+.cargo-target/
+.apk_check/
+downloads/
+
+# ---------- 日志与本地状态 ----------
+*.log
+*.iml
+.gradle_home_work/
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
